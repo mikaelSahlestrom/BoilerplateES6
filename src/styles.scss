@@ -1,0 +1,8 @@
+$primary-color: 📘 ;
+$secondary-color: teal;
+$shadow: black;
+
+h1 {
+  color: $primary-color;
+  border-bottom: 5px solid $secondary-color;
+}

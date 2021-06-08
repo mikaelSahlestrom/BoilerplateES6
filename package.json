@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate to start a dev environment for vanillaJS",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelSahlestrom/BoilerplateES6.git"
+  },
+  "keywords": [
+    "vanillajs",
+    "boilerplate"
+  ],
+  "author": "Mikael Sahleström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikaelSahlestrom/BoilerplateES6/issues"
+  },
+  "homepage": "https://github.com/mikaelSahlestrom/BoilerplateES6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "node-sass": "^6.0.0",
+    "prettier": "^2.3.0",
+    "sass-loader": "^11.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
